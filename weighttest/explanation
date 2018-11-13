@@ -1,1 +1,35 @@
+Java exercise-Weight Conversion
 
+This topic is recommended to understand the JAVA → method advanced
+1.Please write the program that the user can enter a weight ,then it can convert and adjust the unit for the specified weight. 
+It is the reference screen:
+
+***Weight Conversion***
+
+1) Set a weight.
+2) Adjust the weight.
+3) Show weight in different units.
+0) Exit
+
+Please enter a number in [1,2,3,0]:
+
+2.
+When you enter 1, you are asked to enter the weight  which can be grams ,pound or ounces .
+If you couldn't enter any number, it would become zero
+When you enter 2, you can adjust the current weight. The positive value is the sum of the current weights, and the negative value is the subtraction.
+When you enter 3, the current weight information (grams, pounds, ounces) is displayed.
+When you enter 0, the program ends.
+
+3.
+Weight: Define methods such as weight conversion and adjustment
+             setGram(double): set the value of gram
+             setGram(int, int): converts pounds and ounces to grams and assigns them to gram
+             converToGram(int, int): converts pounds and ounces to grams
+             AdjustGram(double): adjust the gram, the parameter is gram
+            AdjustGram(int, int): adjusts the gram, with parameters in pounds and ounces
+            getWeightGram(): Returns the current weight in grams
+            getPound(): Returns the current weight in pounds
+            getOunce(): Returns the current weight in ounces
+
+WeightTest: contains the main method and operates the Weight category
+                   showMenu(): display menu
