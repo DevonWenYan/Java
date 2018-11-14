@@ -1,0 +1,27 @@
+1. Please write a program that allows the user to enter a time,conversions and adjustments on the unit for the specified time. 
+The reference screen is as follows:
+
+***Convert Length of Time***
+1) Set a length of time.
+2) Adjust the Length of time.
+3) Show length of time in different units.
+0) Exit
+
+Please enter a number in [1,2,3,0]:
+
+2. How to operate instructions:
+(1). When entering 1, the user is required to enter a time length value, which can be entered in seconds (for example: 60) 
+     in the form of "hour: minute: second" (for example: 01:12:30).
+(2). When inputting 2, you can adjust the current time length (the input format is the same as 1).
+     The positive value is the action of adding the current time, and the negative value is the subtraction.
+(3). When inputting 3, the current time length (output in the form of seconds and output in the form of "hour:minute:second") is displayed.
+     When you enter 0, the program ends.
+
+3. The program contains 2 categories:
+TimeLength: Define time and adjustment methods
+TimeLengthTest: contains the main method and operates the TimeLength class
+
+4.time conversion:
+  1 hour = 60 minutes
+  1 minute = 60 seconds
+  1 hour = 3600 seconds
